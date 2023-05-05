@@ -2,7 +2,7 @@
 
 # Instructions
 
-1. Download the dataset from the website: <br>
+1. Download the dataset from the website: http://www-rech.telecom-lille.fr/shrec2017-hand/ <br>
 
 2. Then, run loaddata.py to generate.pckl format data. <br>
 
