@@ -1,6 +1,6 @@
-# 445-finalproject
+# 445 Final Project: Hand Gesture Recognition
 
-Instructions
+#Instructions
 
 Download the dataset from the website: <br>
 
