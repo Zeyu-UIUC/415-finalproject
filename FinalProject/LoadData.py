@@ -4,6 +4,19 @@ import pickle
 from scipy import ndimage as ndimage
 from sklearn.model_selection import train_test_split
 
+'''
+This script loads and processes gesture data from either the DHG or SHREC dataset. 
+It first defines two functions, resize_gestures and load_gestures. 
+The resize_gestures function takes an input list of gesture arrays and resizes them to a specified final length using the ndimage.zoom function.
+The load_gestures function loads the gestures data and their labels from either the DHG or SHREC dataset. 
+It takes four input arguments: dataset, root, version_x, and version_y. 
+Based on these arguments, it reads the gesture data from the specified dataset and resizes the gestures using the resize_gestures function if the resize_gesture_to_length parameter is provided. 
+It then extracts labels for the gestures, either in a 14-class or 28-class format, or both.
+After defining these functions, the script loads the gesture data and labels using the load_gestures function with the SHREC dataset as an example. 
+It then splits the loaded data into training and test sets using the train_test_split function from the sklearn library. 
+Finally, it saves the resulting dataset to a pickle file using the write_data function.
+'''
+
 def resize_gestures(input_gestures, final_length=100):
     output_gestures = numpy.array([numpy.array([ndimage.zoom(x_i.T[j], final_length / len(x_i), mode='reflect') for j in range(numpy.size(x_i, 1))]).T for x_i in input_gestures])
     return output_gestures
