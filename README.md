@@ -1,6 +1,6 @@
 # 445 Final Project: Hand Gesture Recognition
 
-Paper: https://ieeexplore.ieee.org/document/8373818
+Paper for reproduction: https://ieeexplore.ieee.org/document/8373818
 
 # Instructions
 
