@@ -1,4 +1,4 @@
-# 445 Final Project: Hand Gesture Recognition
+# CS445 Final Project: Hand Gesture Recognition
 
 Paper for reproduction: https://ieeexplore.ieee.org/document/8373818
 
