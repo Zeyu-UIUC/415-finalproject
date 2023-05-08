@@ -1,6 +1,7 @@
 # CS445 Final Project: Hand Gesture Recognition
 
 Paper for reproduction: https://ieeexplore.ieee.org/document/8373818
+Paper official code: https://github.com/guillaumephd/deep_learning_hand_gesture_recognition
 
 # Instructions
 
