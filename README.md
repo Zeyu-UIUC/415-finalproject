@@ -15,6 +15,6 @@ Paper for reproduction: https://ieeexplore.ieee.org/document/8373818
 5. To predict the gesture using data generated from unity, run the predcition code cell in main.ipynb.
     
 
-# file organization
+# File organization
 FinalProject: The folder containing all files related to the Model, including preprocessing data, training data, and gesture prediction. 
 UnityFile: The folder for Unity Project. The script is stored in the Assets folder. The Leap motion Unity Package is imported. 
